@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+solblog = "FCtA4LKBeUFbG7FawMcsy3x7uXVdCHVj8wsGkNsrTA59"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/solana/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
