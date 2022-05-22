@@ -45,6 +45,7 @@ pub struct Initialize<'info> {
 pub struct MakePost<'info> {
     #[account(mut, has_one = authority)]
     pub blog_account: Account<'info, BlogAccount>,
+    #[account(mut)]
     pub authority: Signer<'info>
 }
 

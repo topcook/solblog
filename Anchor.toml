@@ -7,7 +7,7 @@ solblog = "FCtA4LKBeUFbG7FawMcsy3x7uXVdCHVj8wsGkNsrTA59"
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "devnet"
+cluster = "localnet"
 wallet = "/home/solana/.config/solana/id.json"
 
 [scripts]
